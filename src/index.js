@@ -59,6 +59,7 @@ class Switch extends React.Component {
           <input
             ref="switch"
             type="checkbox"
+            id={this.props.id}
             onClick={this.onChange}
             defaultChecked={this.props.checked}
           />

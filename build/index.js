@@ -101,6 +101,7 @@ var Switch = function (_React$Component) {
           _react2.default.createElement('input', {
             ref: 'switch',
             type: 'checkbox',
+            id: this.props.id,
             onClick: this.onChange,
             defaultChecked: this.props.checked
           })
