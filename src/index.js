@@ -73,6 +73,7 @@ class Switch extends React.Component {
  * Validating propTypes
  */
 Switch.propTypes = {
+  id: React.PropTypes.string,
   label: React.PropTypes.string,
   className: React.PropTypes.string,
   required: React.PropTypes.bool,
