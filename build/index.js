@@ -119,6 +119,7 @@ var Switch = function (_React$Component) {
 
 
 Switch.propTypes = {
+  id: _react2.default.PropTypes.string,
   label: _react2.default.PropTypes.string,
   className: _react2.default.PropTypes.string,
   required: _react2.default.PropTypes.bool,
